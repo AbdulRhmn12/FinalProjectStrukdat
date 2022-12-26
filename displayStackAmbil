@@ -1,0 +1,17 @@
+void displayStackAmbil()
+{
+  if(isAmbilEmpty())
+  {
+    cout << "Daftar Baju yang Telah Dicuci Kosong !!" << endl
+  }
+  else
+  {
+    cout << endl << "Nomor Baju Pelanggan Sudah Dicuci : ";
+    typestack bantu;
+    while(bantu != NULL)
+    {
+      cout << bantu -> info << ", ";
+      bantu = bantu -> next;
+    }
+  }
+}
