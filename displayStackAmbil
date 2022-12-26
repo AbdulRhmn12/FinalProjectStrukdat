@@ -8,6 +8,7 @@ void displayStackAmbil()
   {
     cout << endl << "Nomor Baju Pelanggan Sudah Dicuci : ";
     typestack bantu;
+    bantu = top1;
     while(bantu != NULL)
     {
       cout << bantu -> info << ", ";
