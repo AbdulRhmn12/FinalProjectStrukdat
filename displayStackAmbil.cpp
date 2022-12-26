@@ -2,7 +2,7 @@ void displayStackAmbil()
 {
   if(isAmbilEmpty())
   {
-    cout << "Daftar Baju yang Telah Dicuci Kosong !!" << endl
+    cout << "Daftar Baju yang Telah Dicuci Kosong !!" << endl;
   }
   else
   {
