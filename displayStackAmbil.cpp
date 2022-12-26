@@ -6,7 +6,7 @@ void displayStackAmbil()
   }
   else
   {
-    cout << endl << "Nomor Baju Pelanggan Sudah Dicuci : ";
+    cout << endl << "Nomor Baju Pelanggan Telah Dicuci : ";
     typestack bantu;
     bantu = top1;
     while(bantu != NULL)
